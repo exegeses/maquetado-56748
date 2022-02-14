@@ -1,0 +1,17 @@
+/* de etiqueta */
+p{
+    background-color: #cbed96;
+}
+
+/* de ID */
+#destacado{
+    padding: 18px;
+    font-weight: bold;
+}
+
+/* de class */
+.item-menu{
+    color: #4c6242;
+    font-size: 20px;
+    text-decoration: none;
+}

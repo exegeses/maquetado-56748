@@ -41,8 +41,12 @@ Maquetado web es: volcar a código HTML y CSS el proyecto web que vayamos a reli
      
 ### 1. Selector de Etiqueta
 >El selector de etiqueta se escribe igual que la etiqueta pero sin < >  
-> y sirve para modificar la estética de una etiqeuta cada vez que aparezca
+> y sirve para modificar la estética de una etiqueta cada vez que aparezca
 
 ## 2. Selector de ID
 > El selector de ID sirve para modificar un elmento único en el HTML  
+
+## 3. Selector de class
+
+> El selector de clase (por opsición del de ID), sirve para modificar un elmento que se repite en el HTML  
 
