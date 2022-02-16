@@ -1,0 +1,22 @@
+@media (min-width:576px){
+   /* ESTE es EL CSS
+    que estamos aprendiendo ahora */
+    body{
+        background-color: #b0bbea;
+    }
+}
+@media (min-width:768px){
+    /* ESTE es EL CSS
+    que estamos aprendiendo ahora */
+    body{
+        background-color: #9cdaf0;
+    }
+
+}
+@media (min-width:992px){
+    /* ESTE es EL CSS
+    que estamos aprendiendo ahora */
+    body{
+        background-color: #9cf0da;
+    }
+}
