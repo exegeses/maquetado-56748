@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#menu1, #menu2, #menu3 {
+    margin: 100px 0px;
+}
+#menu1 li{
+    display: inline;
+}
+    #menu1 li a{
+        color: #444;
+        text-decoration: none;
+        background-color: salmon;
+        padding: 25px 35px;
+    }
+
+#menu2 a{
+    text-decoration: none;
+    color: #444;
+    background-color: salmon;
+    padding: 25px 35px;
+}
+
+#menu3 a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: salmon;
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+#menu3 a:hover{
+    color: #f7e2ce;
+    background-color: #fc9e92;
+}
