@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#contenedor, #contenedor2{
+    background-color: #ccc;
+    width: 800px;
+    margin: 30px auto;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap; /* respeta anchos de los elementos internos */
+}
+
+#contenedor{
+    /* justify-content: start; /* predeterminado horizontal */
+    /* justify-content: end; alineado a la derecha horizontal */
+    justify-content: center; /* centrado horizontal */
+
+    /* align-items: start;  predeterminado vertical */
+    /* align-items: end;  alineado abajo vertical */
+    align-items: center; /* centrado vertical */
+}
+    article{
+        background-color: #fff;
+        width: 200px;
+        height: 200px;
+        /* display: inline-block; */
+        margin: 10px;
+    }
+
+#contenedor2{
+    /* justify-content: start; /* predeterminado horizontal */
+
+    /* justify-content: space-between; /* entre cajas */
+    /* justify-content: space-around; /* alrededor cajas pero suma entre ellas */
+    justify-content: space-evenly; /* alrededor cajas homogeneo */
+
+    /* align-items: start;  predeterminado vertical */
+    /* align-items: end;  alineado abajo vertical */
+    align-items: center; /* centrado vertical */
+}
