@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #444;
+}
+header{
+    width: 900px;
+    margin: auto; /* para centrar la caja */
+    height: 70px;
+
+    display: flex; /* para poner contenido uno al lado del otro */
+    justify-content: space-between; /* espacio entre elementos */
+    align-items: center; /* centrado vertical */
+}
+    #brand{
+
+    }
+    #brand img{
+        width: 180px;
+    }
+    header nav{
+        background-color: #fff;
+    }
+    header nav a{
+        text-decoration: none;
+        color: #444;
+        padding: 10px;
+    }
+
+main{
+    min-height: 710px;/* min */
+}
+
+    #iPhoneiPad{
+        width: 900px;
+        margin: auto;
+        display: flex;
+        padding-top: 52px;
+        align-items: center;
+    }
+        #cajaH1{
+            padding-left: 52px;
+        }
+
+    #cajaVerde{
+        min-height: 450px;
+        background-color: #e5f4bf;
+    }
+
+    .contenedor{
+        width: 900px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;  /* respeta anchos */
+        justify-content: space-between;
+    }
+        .contenedor article{
+            width: 250px;
+            margin: 34px 0px 0px 0px;
+            text-align: center;
+        }
+        .contenedor article img{
+            width: 25px;
+        }
+        .contenedor article p{
+            margin-top: 10px;
+            text-align: justify;
+        }
+
+footer{
+    width: 900px;
+    margin: auto; /* para centrar la caja */
+    height: 120px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* centrado vertical */
+}
+        #social a{
+            padding: 10px;
+        }
+        #social img{
+            width: 30px;
+        }
