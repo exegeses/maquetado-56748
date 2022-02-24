@@ -37,6 +37,7 @@ main{
     min-height: 710px;/* min */
 }
 
+/* index */
     #iPhoneiPad{
         width: 900px;
         margin: auto;
@@ -57,7 +58,7 @@ main{
         width: 900px;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;  /* respeta anchos */
+        flex-wrap: wrap;  /* respeta anchos de los elementos internos */
         justify-content: space-between;
     }
         .contenedor article{
@@ -72,6 +73,49 @@ main{
             margin-top: 10px;
             text-align: justify;
         }
+
+/* productos */
+    #heroProductos{
+        width: 900px;
+        height: 355px;
+        margin: auto;
+    }
+    .prodDestacados{
+        width: 426px;
+        margin-top: 25px;
+        height: 160px;
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+        .bgImac{
+            /*imagen de fondo iMac*/
+            background-image: url(../imgs/iMac.jpg);
+            background-size: 250px;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+        .prodDestacados a{
+            color: #444;
+            text-decoration: none;
+        }
+        .botVermas{
+            background-color: #ebf5ca;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 20px; /*  bordes redondeados */
+            transition: .3s; /* 300ms */
+        }
+        .botVermas:hover{
+            background-color: #c9df60;
+        }
+
+    .productos{
+        width: 280px;
+        margin-top: 25px;
+        height: 160px;
+        background-color: #e5f9b9;
+    }
+
 
 footer{
     width: 900px;
