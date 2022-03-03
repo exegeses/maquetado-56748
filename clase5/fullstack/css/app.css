@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #707070;
+    border-top: 8px solid #E16D65;
+}
+header{
+    height: 110px;
+    display: flex;
+}
+    #top{
+        /* background-color: #f7e0e1; */
+        /* background-color: #f8b7ba; */
+        height: 50px;
+        width: 900px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+    }
+    #brand{
+        color: #E16D65;
+        text-decoration: none; /* quitar subrayado */
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #top nav{
+        
+    }
+    #top nav a{
+        color: #707070;
+        text-decoration: none;
+        padding: 10px;
+    }
+    #top nav a:hover{
+        color: #E16D65;
+    }
+    .seccionActual{
+        color: #E16D65 !important;
+    }
+
+    #hero{
+        height: 350px;
+        /* imagen de fondo */
+        background-image: url(../imgs/pink-desk.webp);
+        background-repeat: no-repeat; /* no genera mozaico */
+        background-position: center center; /* x y */
+        -webkit-background-size: cover;
+        background-size: cover;
+
+        /* contenido de texto */
+        text-align: center;
+        line-height: 350px;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+main{
+    min-height: 900px;
+}
+
+footer{
+    height: 110px;
+    text-align: center;
+}
+    footer a{
+        text-decoration: none;
+        color: #707070;
+        padding: 15px;
+    }
+    footer a img{
+        width: 20px;
+        opacity: .5;
+    }
+    footer a img:hover{
+        opacity: 1;
+    }
+
+    footer nav{
+        line-height: 60px;
+    }
