@@ -65,8 +65,54 @@ header{
     }
 
 main{
-    min-height: 900px;
+    width: 900px;
+    margin: auto;
+    padding: 52px 0px; /* separacion interna vertical */
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly;
 }
+
+    h1{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 26px;
+    }
+
+/* contenido de sección fullstack  */
+
+    .fullstack{
+        width: 400px;
+        padding: 16px;
+        margin: 10px 0px;
+        /* background-color:  #f7e0e1; */
+
+        box-shadow: 0px 0px 4px #dfdfdf;
+        border-radius: 10px;
+    }
+    .fullstack:hover{
+        box-shadow: 0px 0px 6px #d9d9d9;
+    }
+
+    .fullstack h2{
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    .fullstack h2 img{
+        width: 26px;
+        position: relative;
+        top: 7px;
+        margin-right: 10px;
+    }
+    .fullstack p{
+        /*interlineado*/
+        line-height: 20px;
+        text-align: justify;
+    }
+
+
 
 footer{
     height: 110px;
