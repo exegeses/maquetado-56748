@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151615;
+    padding-top: 150px;
+}
+
+main{
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    background-color: #fff;
+}
+
+#celeste{
+    width: 100px;
+    height: 100px;
+    background-color: #90e9f1;
+
+    position: relative;
+    /* top: -85px;*/
+    top: 200px;
+    left: -50px;
+
+}
