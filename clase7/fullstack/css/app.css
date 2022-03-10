@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #707070;
+    border-top: 8px solid #E16D65;
+}
+header{
+    height: 110px;
+    display: flex;
+}
+    #top{
+        /* background-color: #f7e0e1; */
+        /* background-color: #f8b7ba; */
+        height: 50px;
+        width: 900px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+    }
+    #brand{
+        color: #E16D65;
+        text-decoration: none; /* quitar subrayado */
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #top nav{
+        
+    }
+    #top nav a{
+        color: #707070;
+        text-decoration: none;
+        padding: 10px;
+    }
+    #top nav a:hover{
+        color: #E16D65;
+    }
+    .seccionActual{
+        color: #E16D65 !important;
+    }
+
+    #hero{
+        height: 350px;
+        /* imagen de fondo */
+        background-image: url(../imgs/pink-desk.webp);
+        background-repeat: no-repeat; /* no genera mozaico */
+        background-position: center center; /* x y */
+        -webkit-background-size: cover;
+        background-size: cover;
+
+        /* contenido de texto */
+        text-align: center;
+        line-height: 350px;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+main{
+    width: 900px;
+    margin: auto;
+    padding: 52px 0px; /* separacion interna vertical */
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly;
+}
+
+    h1{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 26px;
+        margin-bottom: 16px;
+    }
+
+/* contenido de sección fullstack  */
+
+    .fullstack{
+        width: 400px;
+        padding: 16px;
+        margin: 10px 0px;
+        /* background-color:  #f7e0e1; */
+
+        box-shadow: 0px 0px 4px #dfdfdf;
+        border-radius: 10px;
+    }
+    .fullstack:hover{
+        box-shadow: 0px 0px 6px #d9d9d9;
+    }
+
+    .fullstack h2{
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    .fullstack h2 img{
+        width: 26px;
+        position: relative;
+        top: 7px;
+        margin-right: 10px;
+    }
+    .fullstack p{
+        /*interlineado*/
+        line-height: 20px;
+        text-align: justify;
+    }
+
+/* contenido de la sección backend */
+#donut, #graph, #extra{
+    box-shadow: 0px 0px 4px #dfdfdf;
+    border-radius: 16px;
+}
+#donut:hover, #graph:hover, #extra:hover {
+    box-shadow: 0px 0px 6px #d9d9d9;
+}
+#donut{
+    width: 290px;
+    height: 366px;
+    padding: 20px;
+}
+    #donut h2{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    #cifraBig{
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        display: block;
+    }
+
+#graph{
+    width: 580px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+    .pill{
+        background-color: #E898BC;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 16px;
+        padding: 3px 8px;
+    }
+    .cifraSmall{
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin: 10px 0px;
+    }
+
+#extra{
+    width: 580px;
+    height: 100px;
+    margin-top: 16px;
+}
+
+
+footer{
+    height: 110px;
+    text-align: center;
+}
+    footer a{
+        text-decoration: none;
+        color: #707070;
+        padding: 15px;
+    }
+    footer a img{
+        width: 20px;
+        opacity: .5;
+    }
+    footer a img:hover{
+        opacity: 1;
+    }
+
+    footer nav{
+        line-height: 60px;
+    }
