@@ -1,0 +1,75 @@
+main{
+    width: 600px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.codigo{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+/* selector (de hermano) adyacente  */
+/* después del + */
+.codigo img + span.caption {
+    font-style: italic;
+}
+
+.codigo span.moneda + span.cifra{
+    font-size: 24px;
+    color: #68824e;
+}
+
+.codigo #lista li{
+    color: #338304;
+    font-size: 24px;
+}
+
+/*  pseudo clase nth-child */
+/*  odd: impar   even: par */
+.codigo #lista li:nth-child(odd){
+    color: #835204;
+}
+
+.codigo article{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 1px;
+    background-color: #cecece;
+}
+/* destacar uno de cada 3  */
+.codigo article:nth-child( 3n ){
+    background-color: #ffffff;
+    border: 1px solid #6e388f;
+}
+
+/* gradientes */
+.codigo #grad1{
+    width: 400px;
+    height: 200px;
+
+    background: -prefix-linear-gradient(top, #00d4ff, white);
+    background: linear-gradient(to bottom, #00d4ff, white);
+}
+.codigo #grad2{
+    width: 400px;
+    height: 200px;
+
+    background: -prefix-linear-gradient(left top, #00d4ff, white);
+    background: linear-gradient(to bottom right, #00d4ff, white);
+}
+.codigo #grad3{
+    width: 400px;
+    height: 200px;
+
+    background: -prefix-linear-gradient(top, #00d4ff, white 80%, orange);
+    background: linear-gradient(to bottom, #00d4ff, white 80%, orange);
+}
+.codigo #grad4{
+    width: 400px;
+    height: 200px;
+
+    background: -prefix-linear-gradient(left, red, orange, yellow, green);
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
+}

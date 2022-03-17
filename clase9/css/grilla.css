@@ -1,0 +1,13 @@
+/* para la clase que genera las filas */
+
+.row{
+    background-color: #ededed;
+    margin: 20px 0px;
+}
+/* para la clase que genera las columnas */
+.col{
+    background-color: #daf8ea;
+}
+.col:nth-child(even){
+    background-color: #f8e6da;
+}

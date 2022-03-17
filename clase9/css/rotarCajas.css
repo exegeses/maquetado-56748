@@ -1,0 +1,24 @@
+main{
+    width: 600px;
+    margin: auto;
+}
+
+p{
+    padding: 20px;
+    background-color: #30322b;
+    color: #fff;
+    transform: rotate( -18deg );
+}
+p:nth-child(even){
+    background-color: #9abf2f;
+}
+article{
+    background-color: #b1f5a3;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+article:hover{
+    background-color: #92d583;
+    transform: rotate( -5deg );
+}
